@@ -1,4 +1,5 @@
 import Header from "../Components/Header/Header"
+import Rodape from "../Components/Rodape/Rodape"
 import SecaoPrimariaOnboarding from "../Components/SecaoPrimariaOnboarding/SecaoPrimariaOnboarding"
 import TitleAndSubTitle from "../Components/TitleAndSubTitle/TitleAndSubTitle"
 import ruido from "../Imgs/Ruido.png"
@@ -17,6 +18,7 @@ export default function Home(){
                 <Header />
                 <TitleAndSubTitle />
                 <SecaoPrimariaOnboarding />
+                <Rodape />
             </div>
         </div>
     )
