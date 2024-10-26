@@ -1,0 +1,128 @@
+.Contato {
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.Side {
+    width: 40vw;
+    min-height: 100vh;
+    max-height: 130vh;
+    color: #fff;
+    background: rgb(14, 9, 103);
+    background: linear-gradient(150deg, rgba(14, 9, 103, 1) 0%, rgba(21, 94, 198, 1) 5%, rgba(9, 9, 121, 1) 34%, rgba(12, 101, 191, 1) 63%, rgba(5, 106, 185, 1) 79%, rgba(31, 31, 142, 1) 100%);
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-Contato {
+    width: 95%;
+    font-size: 5vw;
+    line-height: 9vh;
+    font-family: Inter, Arial;
+    font-weight: 900;
+    padding: 2vh;
+}
+
+.Form {
+    width: 50vw;
+    padding: 10vw;
+}
+
+.Cabecalho-form-contato {
+    align-items: center;
+}
+
+.Cabecalho-form-contato {
+    display: flex;
+    justify-content: center;
+    top: -12vh;
+}
+
+.Cabecalho-form-contato a img {
+    width: 10vw;
+}
+
+.Form-hubspot {
+    position: relative;
+    max-height: 70vh;
+}
+
+/*
+    SecaoPrimariaOnboarding
+*/
+
+.SecaoPrimariaOnboarding {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-part-sec img {
+    object-fit: cover;
+    height: 65vh;
+}
+
+.Text-part-sec {
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+}
+
+.Text-part-sec .Subtitle-Text-part-sec {
+    font-size: 3vw;
+    font-family: Inter, Arial;
+    font-weight: 900;
+    line-height: 6vh;
+    color: #1f1f1f;
+}
+
+.Subtitle-Text-part-sec:after {
+    content: '';
+    display: flex;
+    width: 17vw;
+    height: 0.5vw;
+    position: relative;
+    top: 2vh;
+    margin-bottom: 5vh;
+    margin-top: 1.3vh;
+    background: rgb(14, 9, 103);
+    background: linear-gradient(150deg, rgba(21, 94, 198, 1) 4%, rgba(12, 101, 191, 1) 63%, rgba(5, 106, 185, 1) 79%, rgba(31, 31, 142, 1) 100%);
+    border-radius: 1vh;
+}
+
+.box-title {
+    position: relative;
+    top: 1vh;
+    max-width: 35vw;
+    padding: 1.5vw;
+    border: 1px solid #000000;
+    border-radius: 1vw;
+    text-align: justify;
+}
+.Text-part-sec a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #114bd4;  
+    width: 15vw;
+    color: #fff;
+    border-radius: 1vh;
+    text-decoration: none;
+    position: relative;
+    top: 4vh;
+    cursor: pointer;
+
+    &:hover{
+        border: 2px solid #fff;
+        background-color: #1f1f1f;
+    }
+}
+.Text-part-sec img{
+    width: 3vw;
+    padding: 1vh;
+}

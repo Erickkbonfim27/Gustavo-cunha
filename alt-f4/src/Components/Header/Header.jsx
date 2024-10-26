@@ -14,11 +14,6 @@ export default function Header() {
                             Contato
                         </Link>
                     </li>
-                    <li>
-                        <Link to="/Equipe">
-                            Equipe
-                        </Link>
-                    </li>
                 </ul>
             </div>
         </div>

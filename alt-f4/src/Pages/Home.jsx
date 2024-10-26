@@ -1,4 +1,5 @@
 import Header from "../Components/Header/Header"
+import SecaoPrimariaOnboarding from "../Components/SecaoPrimariaOnboarding/SecaoPrimariaOnboarding"
 import TitleAndSubTitle from "../Components/TitleAndSubTitle/TitleAndSubTitle"
 import ruido from "../Imgs/Ruido.png"
 import codeImagem from "../Imgs/code.png"
@@ -15,7 +16,7 @@ export default function Home(){
             <div className="Main-contents">
                 <Header />
                 <TitleAndSubTitle />
-                
+                <SecaoPrimariaOnboarding />
             </div>
         </div>
     )
