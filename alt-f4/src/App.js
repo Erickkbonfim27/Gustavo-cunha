@@ -6,6 +6,9 @@ function App() {
         <h1>
           Teste subiu o alt-f4
         </h1>
+        <p>
+          Valida
+        </p>
     </div>
   );
 }
