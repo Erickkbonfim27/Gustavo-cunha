@@ -9,6 +9,7 @@
 .Home-altf4 {
     width: 100vw;
 }
+
 .Bakground-imagees {
     position: absolute;
     z-index: -1;
@@ -17,66 +18,78 @@
     display: flex;
     flex-direction: column;
 }
+
 .Bakground-imagees .Ruido {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
 }
+
 .Bakground-imagees .img-lateral .codeImagem {
     width: 55vw;
     position: absolute;
     top: 10vh;
     right: 2vw;
 }
-.Main-contents{
+
+.Main-contents {
     position: absolute;
     top: 0;
 }
+
 /*
     header
 */
-.Header{
+.Header {
     width: 100vw;
 }
-.Acessess{
+
+.Acessess {
     position: absolute;
     top: 5vh;
     right: 5vw;
 }
-.Acessess .Links{
+
+.Acessess .Links {
     width: 20vw;
     display: flex;
     justify-content: space-between;
 }
-.Links{
-    list-style-type:none;
+
+.Links {
+    list-style-type: none;
 }
-.Links li a{
+
+.Links li a {
     text-decoration: none;
     color: #fff;
     padding: 1.5vh 2.5vw;
     font-family: Inter;
 }
-.Links li a:hover{
+
+.Links li a:hover {
     background-color: #ffffffc8;
     color: #1868d2;
     border-radius: 0.7vh;
 }
-.Logo img{
+
+.Logo img {
     width: 40vw;
     position: relative;
     top: -9vh;
     left: 2vw;
 }
+
 /*
     TitleAndSubTitle
 */
-.TitleAndSubTitle{
+.TitleAndSubTitle {
     display: flex;
     flex-direction: column;
     position: relative;
 }
-.TitleAndSubTitle .principal-title{
+
+.TitleAndSubTitle .principal-title {
     max-width: 55vw;
     color: #fff;
     font-family: Inter, Arial;
@@ -87,7 +100,8 @@
     left: 3vw;
     line-height: 7vh;
 }
-.TitleAndSubTitle .subtitle{
+
+.TitleAndSubTitle .subtitle {
     position: relative;
     top: -23vh;
     left: 3vw;
@@ -96,11 +110,13 @@
     max-width: 30vw;
     font-size: 1.3vw;
 }
-.Cta{
+
+.Cta {
     position: relative;
     top: -3vh;
 }
-.Cta a{
+
+.Cta a {
     text-decoration: none;
     background-color: #00a6ff;
     padding: 1vh 2.5vw;
@@ -114,15 +130,35 @@
     left: 3vw;
     justify-content: space-around;
 }
-.Cta a img{
+
+.Cta a img {
     width: 3vw;
 }
-.Cta a:hover{
+
+.Cta a:hover {
     border: 2px solid #ffffff;
 }
-.assest-title img{
+
+.assest-title img {
     width: 4vw;
     position: absolute;
-    right: 2vw; 
+    right: 2vw;
     top: 12vh;
+}
+.Equipe{
+    position: absolute;
+    width: 100vw;
+    top: -77vh;
+    right: 15vw;
+    width: 19vw;
+}
+
+.Equipe img {
+    position: absolute;
+    object-fit: cover;
+    height: auto;
+    rotate: -90deg;
+    width: 19vw;
+    border-radius: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }

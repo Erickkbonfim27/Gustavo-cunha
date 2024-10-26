@@ -15,6 +15,7 @@ export default function Home(){
             <div className="Main-contents">
                 <Header />
                 <TitleAndSubTitle />
+                
             </div>
         </div>
     )

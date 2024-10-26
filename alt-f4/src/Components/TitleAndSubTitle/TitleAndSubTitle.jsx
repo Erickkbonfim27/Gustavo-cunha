@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import inviteIcon from "../../Imgs/invite.png"
 import iconeUm from "../../Imgs/iconeUm.png"
+import equipe from "../../Imgs/equipe.jpeg"
 
 export default function TitleAndSubTitle() {
     return (
@@ -21,6 +22,9 @@ export default function TitleAndSubTitle() {
                         Invita a gente
                     </Link>
                 </div>
+            </div>
+            <div className="Equipe">
+                <img src={equipe} alt="equipe" />
             </div>
         </div>
     )
