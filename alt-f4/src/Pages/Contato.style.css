@@ -114,7 +114,7 @@
     border-radius: 1vh;
     text-decoration: none;
     position: relative;
-    top: 4vh;
+    top: 5.5vh;
     cursor: pointer;
 
     &:hover{
@@ -125,4 +125,50 @@
 .Text-part-sec img{
     width: 3vw;
     padding: 1vh;
+}
+
+.Rodape-ftalt img{
+    position: relative;
+    bottom: 0 !important;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    opacity: 0.4;
+}
+.logo-box{
+    display: flex;
+    justify-content: center !important;
+}
+.logo-box img{
+    width: 25vw;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    position: absolute;
+    bottom: 10vh !important;
+}
+
+@media screen and (max-width: 900px){
+    .Contato{
+        flex-direction: unset;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Side{
+        width: 100vw ;
+    }
+    .Form{
+        width: 80vw;
+    }
+    .Cabecalho-form-contato a img{
+        width: 25vw;
+        margin-bottom: 4vh;
+    }
+    .title-Contato{
+        font-size: 12vw;
+        line-height: 7vh;
+    }
+    .logo-box img{
+        width: 85vw !important;
+    }
 }

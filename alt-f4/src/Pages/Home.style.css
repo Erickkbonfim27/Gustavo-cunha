@@ -163,13 +163,73 @@
     border-radius: 1vw;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
-.Rodape{
-    height: 100vh;
-    background-color: #252525;
+
+.Rodape-ftalt {
+    background: rgb(7, 6, 25);
+    background: -moz-linear-gradient(150deg, rgba(7, 6, 25, 1) 0%, rgba(20, 57, 111, 1) 5%, rgba(7, 7, 61, 1) 34%, rgba(16, 62, 108, 1) 63%, rgba(42, 72, 144, 1) 79%, rgba(13, 38, 79, 1) 100%);
+    background: -webkit-linear-gradient(150deg, rgba(7, 6, 25, 1) 0%, rgba(20, 57, 111, 1) 5%, rgba(7, 7, 61, 1) 34%, rgba(16, 62, 108, 1) 63%, rgba(42, 72, 144, 1) 79%, rgba(13, 38, 79, 1) 100%);
+    background: linear-gradient(150deg, rgba(7, 6, 25, 1) 0%, rgba(20, 57, 111, 1) 5%, rgba(7, 7, 61, 1) 34%, rgba(16, 62, 108, 1) 63%, rgba(42, 72, 144, 1) 79%, rgba(13, 38, 79, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#070619", endColorstr="#0d264f", GradientType=1);
     margin-top: 7vh;
 }
 
 @media screen and (max-width: 900px) {
+
+    .SecaoPrimariaOnboarding {
+        position: relative;
+        top: 47vh;
+        flex-direction: column;
+        height: 210vh;
+    }
+
+    .img-part-sec img {
+        position: relative;
+        width: 90vw;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        top: -27vh;
+        height: auto;
+        object-fit: contain !important; 
+        overflow: hidden;
+    }
+
+    .Text-part-sec{
+        width: 90vw !important;
+        margin: 0 auto;
+    }
+    .box-title{
+        max-width: 90vw !important;
+        display: flex;
+        justify-content: center;
+    }
+    .box-title p{
+        font-size: 4.5vw;
+        padding: 1vw;
+        line-height: 3.5vh;
+    }
+    .Subtitle-Text-part-sec{
+        font-size: 12vw !important;
+        width: 90vw;
+        text-align: center;
+        line-height: 5.7vh !important;
+    }
+    .Subtitle-Text-part-sec::after{
+        margin: 0 auto;
+        width: 50vw !important;
+        height: 0.6vh !important;
+    }
+    .Text-part-sec a{
+        width: 50vw !important;
+        height: 6vh;
+        margin: 0 auto;
+        font-size: 4vw !important;
+    }
+    .Text-part-sec a img{
+        width: 7vw;
+    }
+
     .Header {
         width: 90vw;
         display: flex;
@@ -190,7 +250,7 @@
     .Links {
         width: 60% !important;
         display: flex;
-        justify-content: space-around;
+        justify-content: center !important;
         margin: 0 auto;
     }
 
@@ -261,7 +321,11 @@
     .Bakground-imagees {
         height: 130vh;
     }
-    .Bakground-imagees .Ruido{
+
+    .Bakground-imagees .Ruido {
         height: 130vh;
     }
+
+
 }
+
